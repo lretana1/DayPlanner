@@ -14,7 +14,7 @@ Project is created with:
 * Javascript
 
 ## Screenshot
-![Day Planner](?raw=true "Day Planner")
+![Day Planner](./Develop/images/schedule.PNG?raw=true "Day Planner")
 
 ## Webpagelink
 https://lretana1.github.io/DayPlanner/
