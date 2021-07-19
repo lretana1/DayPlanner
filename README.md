@@ -5,7 +5,7 @@
 * [Webpagelink](#Webpagelink)
 
 ## General info
-
+The purpose of this project was to deepen understanding of bootstrap, jquery and mainly moment.js. Learnin how to use an api to simplify the use of dates and time without the need to write is is extremely useful. The webpage allows the user to save events to keep track of time throughout the day from the hours of 8am to 5pm.
 	
 ## Technologies
 Project is created with:
