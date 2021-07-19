@@ -7,3 +7,11 @@ function(){
         var timeblock =parseint($(this).attr("id").split("hour")[1]);
     })
 }
+
+$(document).ready(function(){
+    $(".saveBtn").on("click",function(){
+        var text = $(this).siblings(".desc").val();
+        var time = $(this).parent().attr("id");
+        localStorage.setItem(time,text);
+    })
+})
