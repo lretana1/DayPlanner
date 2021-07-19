@@ -12,12 +12,16 @@ $(document).ready(function(){
         var now =moment().hour();
         $(".time-block").each(function{
             var timeblock = parseInt($(this).attr("id").split("hour")[1]);
-             if (timeblock=== now){
+             if (timeblock=== now) {
                  $(this).removeClass("future");
                  $(this).removeClass("past");
                  $(this).removeClass("present");
              }
-             else if(timeblock)
+             else if(timeblock < now) {
+                $(this).removeClass("future");
+                $(this).addClass("past");
+                $(this).removeClass("present");
+             }
         })
     })
 })
